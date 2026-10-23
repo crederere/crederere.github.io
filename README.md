@@ -1,4 +1,5 @@
 # Paseo Custom — iPhone web app
 
-The fork's web client, built from the same commit as the Android/desktop round. Open on the iPhone in Safari, Share, Add to Home Screen.
-Client code only: no data or keys here. It connects to the PC through the end-to-end encrypted relay after pairing.
+Round 47 (0.12.0, 4dcb6325f), built from the same commit as the desktop installer and the APK.
+On the iPhone: Safari → Share → Add to Home Screen, then 페어링 링크 붙여넣기 inside the home-screen app.
+Client code only: no data or keys here. It reaches the PC through the end-to-end encrypted relay after pairing.
