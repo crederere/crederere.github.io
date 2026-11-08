@@ -1,5 +1,5 @@
 # Paseo Custom — iPhone web app
 
-Round 51 (0.14.0, da291deee), built from the same commit as the desktop installer and the APK.
+Round 52 (0.14.0, e47068e5a), built from the same commit as the desktop installer and the APK.
 On the iPhone: Safari → Share → Add to Home Screen, then 페어링 링크 붙여넣기 inside the home-screen app.
 Client code only: no data or keys here. It reaches the PC through the end-to-end encrypted relay after pairing.
