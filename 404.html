@@ -81,12 +81,14 @@
 
       /* Suppress the browser's default focus outline — it appears on mouse
          clicks and looks out of place against our themed surfaces. Keep a
-         themed ring for keyboard users via :focus-visible. */
+         themed ring for keyboard users via :focus-visible. The ring is the active
+         theme's `ring` color, exposed by Unistyles as a CSS variable; the fallback
+         only shows before the theme mounts. */
       *:focus {
         outline: none;
       }
       *:focus-visible {
-        outline: 2px solid #20744a;
+        outline: 2px solid var(--colors-ring, #20744a);
         outline-offset: 2px;
       }
     </style>
@@ -95,6 +97,6 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-  <script src="/_expo/static/js/web/index-8986757274cc95638da0573e7572b145.js" defer></script>
+  <script src="/_expo/static/js/web/index-50b5787ed5c58b0a6b684b35780f20c1.js" defer></script>
 </body>
 </html>
